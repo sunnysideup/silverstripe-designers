@@ -2,34 +2,34 @@
 
 class Designer extends DataObject {
 
-	public static $db = array(
+	private static $db = array(
 		"Name" => "Varchar",
 		"Location" => "Varchar",
 		"Notes" => "Varchar(255)",
 		"Rate" => "Enum('$,$$,$$$,$$$$,$$$$$', '$$$')"
 	);
 
-	public static $has_one = array(
+	private static $has_one = array(
 		"Sample1" => "Image",
 		"Sample2" => "Image",
 		"Sample3" => "Image"
 	);
 
-	public static $belongs_many_many = array(
+	private static $belongs_many_many = array(
 		"DesignersPages" => "DesignersPage"
 	);
 
-	static $default_order = "\"Rate\" ASC, \"Name\" ASC";
+	private static $default_order = "\"Rate\" ASC, \"Name\" ASC";
 
 }
 
 class Designer_Admin extends ModelAdmin {
 
-	public static $managed_models = array("Designer");
+	private static $managed_models = array("Designer");
 
-	public static $url_segment = 'designer';
+	private static $url_segment = 'designer';
 
-	public static $menu_title = 'Designers';
+	private static $menu_title = 'Designers';
 
 	public $showImportForm = false;
 

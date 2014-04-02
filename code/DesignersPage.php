@@ -2,29 +2,12 @@
 
 class DesignersPage extends Page {
 
-	public static $icon = "designers/images/treeicons/DesignersPage";
+	private static $icon = "designers/images/treeicons/DesignersPage";
 
-	public static $many_many = array(
+	private static $many_many = array(
 		"Designers" => "Designer"
 	);
 
-	public function getCMSFields() {
-		$fields = parent::getCMSFields();
-		$fields->addFieldToTab(
-			"Root.Content.Designers",
-			new ManyManyComplexTableField(
-				$controller = $this,
-				$name = "Designers",
-				$sourceClass = "Designer",
-				$fieldList = null,
-				$detailFormFields = null,
-				$sourceFilter = "",
-				$sourceSort = "",
-				$sourceJoin = ""
-			)
-		);
-		return $fields;
-	}
 
 }
 

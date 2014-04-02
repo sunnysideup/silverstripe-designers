@@ -3,7 +3,7 @@
 	"type": "silverstripe-module",
 	"description": "Create a list of designers or design options within Silverstripe",
 	"homepage": "http://www.silverstripe-webdevelopment.com",
-	"keywords": ["designers", "silverstripe"],
+	"keywords": ["designers", "silverstripe", "portfolio", "presenting options"],
 	"license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
 	"authors":[
 		{
@@ -14,9 +14,10 @@
 		}
 	],
 	"require":{
-		"silverstripe/framework": "~2.4"
+		"silverstripe/framework": "~3.1",
+		"silverstripe/cms": "~3.1"
 	},
 	"extra": {
 		"installer-name": "designers"
-	}	
+	}
 }
