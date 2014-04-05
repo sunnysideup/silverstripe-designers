@@ -1,6 +1,6 @@
 <% if Designers %>
 <ul id="Designers">
-	<% with/loop Designers %>
+	<% loop Designers %>
 	<li class="$FirstLast">
 		<h3>$Name, $Location, $Rate</h3>
 		<% if Notes %><p>$Notes</p><% end_if %>
@@ -9,6 +9,6 @@
 		<% if Sample3 %><a href="$Sample3.Link" rel="prettyPhoto[$Name]"><img src="$Sample3.Link" alt="$Sample3.Title"  class="last" /></a><% end_if %>
 		<hr />
 	</li>
-	<% end_with/loop %>
+	<% end_loop %>
 </ul>
 <% end_if %>
