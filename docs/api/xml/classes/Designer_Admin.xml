@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="Designer_Admin" namespace="" name="Designer_Admin" abstract="false" final="false" start="26" end="36">
+  <file path="/var/www/_modules/designers/trunk/docs/en/phpdox/../../../code/model" file="Designer.php" realpath="/var/www/_modules/designers/trunk/code/model/Designer.php" size="727" time="2015-03-14T10:22:58+13:00" unixtime="1426281778" sha1="2490c6e38cb999e1d32736f44cc1154d20c07ed3" relative="code/model/Designer.php"/>
+  <extends full="ModelAdmin" namespace="" name="ModelAdmin"/>
+  <member name="managed_models" type="array" visibility="private" line="28"/>
+  <member name="url_segment" type="string" default="'designer'" visibility="private" line="30"/>
+  <member name="menu_title" type="string" default="'Designers'" visibility="private" line="32"/>
+  <member name="showImportForm" type="{unknown}" default="false" visibility="public" line="34"/>
+</class>
