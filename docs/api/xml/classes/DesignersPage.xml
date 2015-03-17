@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="DesignersPage" namespace="" name="DesignersPage" abstract="false" final="false" start="3" end="12">
-  <file path="/var/www/_modules/designers/trunk/docs/en/phpdox/../../../code" file="DesignersPage.php" realpath="/var/www/_modules/designers/trunk/code/DesignersPage.php" size="706" time="2015-03-14T10:22:58+13:00" unixtime="1426281778" sha1="aa85d336924e28d0300e54056f9620f2f9d398a9" relative="code/DesignersPage.php"/>
-  <extends full="Page" namespace="" name="Page"/>
-  <member name="icon" type="string" default="&quot;designers/images/treeicons/DesignersPage&quot;" visibility="private" line="5"/>
-  <member name="many_many" type="array" visibility="private" line="7"/>
-</class>
