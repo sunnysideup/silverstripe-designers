@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="DesignersPage_Controller" namespace="" name="DesignersPage_Controller" abstract="false" final="false" start="14" end="24">
+  <file path="/var/www/_modules/designers/trunk/docs/en/phpdox/../../../code" file="DesignersPage.php" realpath="/var/www/_modules/designers/trunk/code/DesignersPage.php" size="706" time="2015-03-14T10:22:58+13:00" unixtime="1426281778" sha1="aa85d336924e28d0300e54056f9620f2f9d398a9" relative="code/DesignersPage.php"/>
+  <extends full="Page_Controller" namespace="" name="Page_Controller"/>
+  <method name="init" start="16" end="22" abstract="false" final="false" static="false" visibility="public">
+    <inline>
+      <comment value="&quot;dark_rounded&quot;, &quot;dark_square&quot;, &quot;facebook&quot;, &quot;light_rounded&quot;, &quot;light_square&quot; OR create your own!" line="20"/>
+    </inline>
+  </method>
+</class>
